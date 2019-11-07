@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TTT Board</title>
+	<style type="text/css"> 
+	
+	table{
+		margin: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	td{
+		width: 100px;
+		height: 100px;
+		/*background: red;*/
+	}	
+
+	.upperleft{
+		border-bottom: 1px solid black;
+
+	}
+	.upperright{
+		border-bottom: 1px solid black;
+
+	}
+	.vertical{
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+
+	#middle{
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	#middleleft{
+		border-bottom: 1px solid black;
+
+	}
+	#middleright{
+		border-bottom: 1px solid black;
+
+	}
+	#bottom{
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+	}
+
+	</style>
+</head>
+<body>
+	
+<h1>Tic Tac Toe</h1>
+
+<table>
+	<tr>
+		<td class="upperleft"></td>
+		<td class="vertical"></td>
+		<td class="upperright"></td>
+	</tr>
+
+	<tr>
+		<td id="middleleft"></td>
+		<td id="middle"></td>
+		<td id="middleright"></td>
+	</tr>
+
+	<tr>
+		<td id="bottomleft"></td>
+		<td id="bottom"></td>
+		<td id="bottomright"></td>
+	</tr>
+</table>
+
+</body>
+</html>
